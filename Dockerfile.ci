@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# openshift/external-dns build file
+
 # builder image
 FROM registry.svc.ci.openshift.org/openshift/release:golang-1.10 as builder
 
